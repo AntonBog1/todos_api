@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.set('degug', true);
+mongoose.set('debug', true);
 mongoose.connect('mongodb://localhost/todo-api')
 
 mongoose.Promise = Promise;
